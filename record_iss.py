@@ -21,7 +21,7 @@ RATE = "48k"
 
 FILE_FMT = "%Y_%m_%d-%H-%M-%S.raw"
 
-rtl_cmd = ["rtl_fm", "-M", MODE, "-f", FREQ, "-s", RATE]
+rtl_cmd = ["rtl_fm","-T","-M", MODE, "-f", FREQ, "-s", RATE]
 
 class tle_reader(object):
     """
